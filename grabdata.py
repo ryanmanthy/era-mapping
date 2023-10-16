@@ -51,7 +51,7 @@ print('result: ' + str(found_pdbs[:10])) # print first 10 PDBs
 #     """
 #     out = get_info(pdb_id, url_root = 'http://www.rcsb.org/pdb/rest/ligandInfo?structureId=')
 #     out = to_dict(out)
-#     return remove_at_sign(out['structureId'])
+#     return remove_at_sign(out['structureId']) - Need to grab data from query_values
 
 # grab data from PubChem database
 
